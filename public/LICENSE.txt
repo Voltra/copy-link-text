@@ -1,0 +1,8 @@
+link.svg
+https://blade-ui-kit.com/blade-icons/feathericon-link
+
+copy.svg
+https://blade-ui-kit.com/blade-icons/fluentui-copy-24
+
+text.svg
+https://blade-ui-kit.com/blade-icons/phosphor-text-align-left-bold
