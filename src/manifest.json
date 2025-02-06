@@ -1,0 +1,47 @@
+{
+	"id": "copy-link-text@ludwig-guerin.fr",
+	"name": "copy-link-text",
+	"version": "1.0.0",
+	"description": "A browser extension that allows you to copy a link's text via the context menu",
+	"manifest_version": 3,
+	"permissions": [
+		"storage",
+		"activeTab",
+		"contextMenus",
+		"menus",
+		"clipboardWrite"
+	],
+	"optional_host_permissions": [
+		"*://*/*"
+	],
+	"content_security_policy": {
+		"extension_pages": "default-src 'self'"
+	},
+	"icons": {
+		"16": "assets/copy-link-text.svg",
+		"48": "assets/copy-link-text.svg",
+		"64": "assets/copy-link-text.svg",
+		"96": "assets/copy-link-text.svg",
+		"128": "assets/copy-link-text.svg"
+	},
+	"background": {
+		"scripts": [
+			"background.ts"
+		]
+	},
+	"action": {
+		"default_icon": {
+			"16": "assets/copy-link-text.svg",
+			"48": "assets/copy-link-text.svg",
+			"64": "assets/copy-link-text.svg",
+			"96": "assets/copy-link-text.svg",
+			"128": "assets/copy-link-text.svg"
+		},
+		"default_title": "copy-link-text"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "copy-link-text@ludwig-guerin.fr"
+		}
+	}
+}
