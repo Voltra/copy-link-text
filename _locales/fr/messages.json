@@ -1,0 +1,10 @@
+{
+	"extensionDescription": {
+		"message": "Une extension de navigateur permettant de copier le texte d'un lien via le menu contextuel.",
+		"description": "Description of the extension."
+	},
+	"menuTitle": {
+		"message": "Copier le texte du lien",
+		"description": "Title for the item within the context menu."
+	}
+}

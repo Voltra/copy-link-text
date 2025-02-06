@@ -2,15 +2,15 @@
 	"id": "copy-link-text@ludwig-guerin.fr",
 	"name": "copy-link-text",
 	"version": "1.0.0",
-	"description": "A browser extension that allows you to copy a link's text via the context menu",
+	"description": "__MSG_extensionDescription__",
 	"manifest_version": 3,
 	"permissions": [
-		"storage",
 		"activeTab",
 		"contextMenus",
 		"menus",
 		"clipboardWrite"
 	],
+	"default_locale": "en",
 	"optional_host_permissions": [
 		"*://*/*"
 	],

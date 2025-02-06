@@ -54,6 +54,10 @@ export default defineConfig({
 					src: "../public/**/*",
 					dest: "assets",
 				},
+				{
+					src: "../_locales/**/*",
+					dest: "_locales",
+				},
 			],
 		}),
 	],

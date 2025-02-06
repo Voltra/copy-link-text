@@ -4,7 +4,7 @@ const menuId = "copy-link-text__copyLinkText";
 
 browser.menus.create({
 	id: menuId,
-	title: "Copy link's text",
+	title: browser.i18n.getMessage("menuTitle"),
 	contexts: ["link"],
 	icons: {
 		"16": "/assets/copy-link-text.svg",
